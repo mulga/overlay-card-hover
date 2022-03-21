@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: 'PT Serif', serif; */
+  color: #333;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.btn {
+  cursor: pointer;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+/* ------- */
+
+.section_portfolio {
+  /* max-width: 1280px; */
+}
+
+.portfolio_card {
+  width: 450px;
+  border: 3px solid #e9eaea;
+  margin: auto;
+}
+
+.card_image {
+  background-image: url("images/01.jpg");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.icon_wrapper {
+  display: flex;
+  gap: 0.5em;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background-color: #4885b4;
+  padding: 0.5em;
+}
+
+.new {
+  background-color: #164a72;
+  color: #fff;
+  width: fit-content;
+  padding: 0.3em 1em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.overlay {
+  position: relative;
+}
+
+.overlay_hover {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  background-color: #000000a9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  opacity: 0;
+  transition: all 400ms;
+}
+
+.overlay_hover i {
+  background-color: #fff;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  font-size: 2em;
+  display: grid;
+  align-items: center;
+  /* padding: 0.2em; */
+}
+
+.overlay_logo {
+}
+
+.overlay_logo img {
+  width: 200px;
+}
+
+.portfolio_card:hover .overlay_hover {
+  opacity: 1;
+  transition: all 400ms;
+}
+
+.card_bottom {
+  padding: 2em;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.city {
+  text-align: center;
+  font-style: italic;
+}
+
+.information_wrapper {
+  margin-top: 1em;
+}
+
+.info_top,
+.info_bottom {
+  display: flex;
+  justify-content: space-between;
+
+  /* border-bottom: 2px solid #0000; */
+}
+
+.info_top span,
+.info_bottom span {
+  font-size: 1.2em;
+  flex-grow: 1;
+  text-align: center;
+  width: 100%;
+}
+
+.info_bottom {
+  border-top: 2px solid black;
+}
