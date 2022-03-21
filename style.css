@@ -96,10 +96,10 @@ img {
 
 .overlay_hover i {
   background-color: #fff;
-  width: 1.5em;
-  height: 1.5em;
+  width: 2em;
+  height: 2em;
   border-radius: 50%;
-  font-size: 1em;
+  font-size: 1.5em;
   display: grid;
   align-items: center;
   /* padding: 0.2em; */
